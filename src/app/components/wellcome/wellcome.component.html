@@ -1,0 +1,26 @@
+ <app-header></app-header>
+
+    <div class="welcome-section">
+      <div class="container">
+        <app-progress-bar [currentStep]="2"></app-progress-bar>
+
+        <div class="welcome-content">
+          <div class="welcome-illustration">
+            <img src="assets/AdmReg_Banner.png?height=300&width=500" alt="Registration Illustration" class="illustration-img">
+          </div>
+
+          <div class="welcome-text">
+            <h1 class="welcome-title">Welcome</h1>
+            <p class="welcome-subtitle">Let's get you registered for Admissions 2025</p>
+            <p class="course-info">
+              Course: <span class="course-name">{{ selectedCourse }}</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="navigation-buttons">
+          <button class="back-button btn btn-primary" (click)="goBack()">BACK</button>
+          <button class="next-button btn btn-primary" (click)="goNext()">NEXT</button>
+        </div>
+      </div>
+    </div>

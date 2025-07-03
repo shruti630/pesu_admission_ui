@@ -1,0 +1,28 @@
+.fee-container {
+  padding: 40px;
+  max-width: 800px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.highlight {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.fee-box {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.pay-btn {
+  background-color: #0056d2;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+}

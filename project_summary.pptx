@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:presentation xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:sldMasters>
+    <p:sldMaster>
+      <p:cSld>
+        <p:bg>
+          <p:bgPr>
+            <a:solidFill>
+              <a:srgbClr val="FFFFFF"/>
+            </a:solidFill>
+          </p:bgPr>
+        </p:bg>
+        <p:spTree>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="1" name=""/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="0" y="0"/>
+              <a:ext cx="0" cy="0"/>
+              <a:chOff x="0" y="0"/>
+              <a:chExt cx="0" cy="0"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="2" name="Title"/>
+              <p:cNvSpPr>
+                <a:spLocks noGrp="1"/>
+              </p:cNvSpPr>
+              <p:nvPr>
+                <p:ph type="title"/>
+              </p:nvPr>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="838200" y="365125" w="5486400" h="1371600"/>
+                <a:ext cx="5486400" cy="1371600"/>
+              </a:xfrm>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr/>
+              <a:lstStyle/>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>Angular Admissions Portal Development</a:t>
+                </a:r>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:spTree>
+      </p:cSld>
+    </p:sldMaster>
+  </p:sldMasters>
+  <p:sldIdLst>
+    <p:sld>
+      <p:cSld>
+        <p:spTree>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="1" name=""/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="0" y="0"/>
+              <a:ext cx="0" cy="0"/>
+              <a:chOff x="0" y="0"/>
+              <a:chExt cx="0" cy="0"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="2" name="Title"/>
+              <p:cNvSpPr>
+                <a:spLocks noGrp="1"/>
+              </p:cNvSpPr>
+              <p:nvPr>
+                <p:ph type="title"/>
+              </p:nvPr>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="838200" y="365125" w="5486400" h="1371600"/>
+                <a:ext cx="5486400" cy="1371600"/>
+              </a:xfrm>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr/>
+              <a:lstStyle/>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>Project Overview</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Angular-based admissions portal development</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Multi-component architecture with modern UI/UX</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Responsive design with Bootstrap integration</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Course selection as main entry point</a:t>
+                </a:r>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:spTree>
+      </p:cSld>
+    </p:sld>
+    <p:sld>
+      <p:cSld>
+        <p:spTree>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="1" name=""/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="0" y="0"/>
+              <a:ext cx="0" cy="0"/>
+              <a:chOff x="0" y="0"/>
+              <a:chExt cx="0" cy="0"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="2" name="Title"/>
+              <p:cNvSpPr>
+                <a:spLocks noGrp="1"/>
+              </p:cNvSpPr>
+              <p:nvPr>
+                <p:ph type="title"/>
+              </p:nvPr>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="838200" y="365125" w="5486400" h="1371600"/>
+                <a:ext cx="5486400" cy="1371600"/>
+              </a:xfrm>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr/>
+              <a:lstStyle/>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>Initial Setup & Project Structure</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Explored existing Angular project structure</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Installed dependencies and started development server</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Identified course selection as main entry point</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Set up routing configuration for navigation</a:t>
+                </a:r>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:spTree>
+      </p:cSld>
+    </p:sld>
+    <p:sld>
+      <p:cSld>
+        <p:spTree>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="1" name=""/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="0" y="0"/>
+              <a:ext cx="0" cy="0"/>
+              <a:chOff x="0" y="0"/>
+              <a:chExt cx="0" cy="0"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="2" name="Title"/>
+              <p:cNvSpPr>
+                <a:spLocks noGrp="1"/>
+              </p:cNvSpPr>
+              <p:nvPr>
+                <p:ph type="title"/>
+              </p:nvPr>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="838200" y="365125" w="5486400" h="1371600"/>
+                <a:ext cx="5486400" cy="1371600"/>
+              </a:xfrm>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr/>
+              <a:lstStyle/>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>Component Architecture</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Home Component - Landing page with hero section</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Course Selection Component - Main entry point</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Important Dates Component - Timeline display</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Syllabus Component - Course information</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Header & Progress Bar Components - Navigation</a:t>
+                </a:r>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:spTree>
+      </p:cSld>
+    </p:sld>
+    <p:sld>
+      <p:cSld>
+        <p:spTree>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="1" name=""/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="0" y="0"/>
+              <a:ext cx="0" cy="0"/>
+              <a:chOff x="0" y="0"/>
+              <a:chExt cx="0" cy="0"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="2" name="Title"/>
+              <p:cNvSpPr>
+                <a:spLocks noGrp="1"/>
+              </p:cNvSpPr>
+              <p:nvPr>
+                <p:ph type="title"/>
+              </p:nvPr>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="838200" y="365125" w="5486400" h="1371600"/>
+                <a:ext cx="5486400" cy="1371600"/>
+              </a:xfrm>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr/>
+              <a:lstStyle/>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>UI/UX Design Implementation</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Bootstrap integration for responsive design</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Custom CSS styling for brand consistency</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Progress bar implementation with visual feedback</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Card-based layouts for content organization</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Consistent header and footer across components</a:t>
+                </a:r>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:spTree>
+      </p:cSld>
+    </p:sld>
+    <p:sld>
+      <p:cSld>
+        <p:spTree>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="1" name=""/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="0" y="0"/>
+              <a:ext cx="0" cy="0"/>
+              <a:chOff x="0" y="0"/>
+              <a:chExt cx="0" cy="0"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="2" name="Title"/>
+              <p:cNvSpPr>
+                <a:spLocks noGrp="1"/>
+              </p:cNvSpPr>
+              <p:nvPr>
+                <p:ph type="title"/>
+              </p:nvPr>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="838200" y="365125" w="5486400" h="1371600"/>
+                <a:ext cx="5486400" cy="1371600"/>
+              </a:xfrm>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr/>
+              <a:lstStyle/>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>Key Features Implemented</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Program selection bar with multiple options</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Important dates timeline with card layout</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Campus video integration with process timeline</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Feature grid with background images</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Comprehensive syllabus information</a:t>
+                </a:r>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:spTree>
+      </p:cSld>
+    </p:sld>
+    <p:sld>
+      <p:cSld>
+        <p:spTree>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="1" name=""/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="0" y="0"/>
+              <a:ext cx="0" cy="0"/>
+              <a:chOff x="0" y="0"/>
+              <a:chExt cx="0" cy="0"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="2" name="Title"/>
+              <p:cNvSpPr>
+                <a:spLocks noGrp="1"/>
+              </p:cNvSpPr>
+              <p:nvPr>
+                <p:ph type="title"/>
+              </p:nvPr>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="838200" y="365125" w="5486400" h="1371600"/>
+                <a:ext cx="5486400" cy="1371600"/>
+              </a:xfrm>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr/>
+              <a:lstStyle/>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>Technical Challenges & Solutions</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Port 4200 conflict resolution</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Image asset path troubleshooting</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• HTML template conversion to Angular components</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• CSS styling consistency across components</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Component communication and routing setup</a:t>
+                </a:r>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:spTree>
+      </p:cSld>
+    </p:sld>
+    <p:sld>
+      <p:cSld>
+        <p:spTree>
+          <p:nvGrpSpPr>
+            <p:cNvPr id="1" name=""/>
+            <p:cNvGrpSpPr/>
+            <p:nvPr/>
+          </p:nvGrpSpPr>
+          <p:grpSpPr>
+            <a:xfrm>
+              <a:off x="0" y="0"/>
+              <a:ext cx="0" cy="0"/>
+              <a:chOff x="0" y="0"/>
+              <a:chExt cx="0" cy="0"/>
+            </a:xfrm>
+          </p:grpSpPr>
+          <p:sp>
+            <p:nvSpPr>
+              <p:cNvPr id="2" name="Title"/>
+              <p:cNvSpPr>
+                <a:spLocks noGrp="1"/>
+              </p:cNvSpPr>
+              <p:nvPr>
+                <p:ph type="title"/>
+              </p:nvPr>
+            </p:nvSpPr>
+            <p:spPr>
+              <a:xfrm>
+                <a:off x="838200" y="365125" w="5486400" h="1371600"/>
+                <a:ext cx="5486400" cy="1371600"/>
+              </a:xfrm>
+            </p:spPr>
+            <p:txBody>
+              <a:bodyPr/>
+              <a:lstStyle/>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="4400" b="1">
+                    <a:solidFill>
+                      <a:srgbClr val="2F5597"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>Project Outcomes</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Fully functional Angular admissions portal</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Responsive design across all devices</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Modern UI/UX with consistent branding</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Scalable component architecture</a:t>
+                </a:r>
+              </a:p>
+              <a:p>
+                <a:pPr>
+                  <a:defRPr sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:defRPr>
+                </a:pPr>
+                <a:r>
+                  <a:rPr lang="en-US" sz="2400">
+                    <a:solidFill>
+                      <a:srgbClr val="000000"/>
+                    </a:solidFill>
+                  </a:rPr>
+                  <a:t>• Ready for production deployment</a:t>
+                </a:r>
+              </a:p>
+            </p:txBody>
+          </p:sp>
+        </p:spTree>
+      </p:cSld>
+    </p:sld>
+  </p:sldIdLst>
+</p:presentation>

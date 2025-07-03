@@ -1,0 +1,127 @@
+ <app-header></app-header>
+
+    <div class="basic-info-section">
+      <div class="container">
+        <app-progress-bar [currentStep]="2"></app-progress-bar>
+
+        <div class="form-container">
+          <h1 class="form-title">Basic Information</h1>
+          <p class="course-info">{{ selectedCourse }}</p>
+
+          <form class="basic-info-form" (ngSubmit)="onSubmit()">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">
+                  Full Name <span class="required">*</span>
+                  <small>(as per 10th Class marksheet)</small>
+                </label>
+                <input type="text" class="form-control" [(ngModel)]="formData.fullName" name="fullName" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Email <span class="required">*</span></label>
+                <input type="email" class="form-control" [(ngModel)]="formData.email" name="email" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Mobile No <span class="required">*</span></label>
+                <input type="tel" class="form-control" [(ngModel)]="formData.mobile" name="mobile" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Create Password <span class="required">*</span></label>
+                <div class="password-input">
+                  <input
+                    [type]="showPassword ? 'text' : 'password'"
+                    class="form-control"
+                    [(ngModel)]="formData.password"
+                    name="password"
+                    required
+                  >
+                  <button type="button" class="password-toggle" (click)="togglePassword()">
+                    {{ showPassword ? '🙈' : '👁️' }}
+                  </button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Confirm Password <span class="required">*</span></label>
+                <div class="password-input">
+                  <input
+                    [type]="showConfirmPassword ? 'text' : 'password'"
+                    class="form-control"
+                    [(ngModel)]="formData.confirmPassword"
+                    name="confirmPassword"
+                    required
+                  >
+                  <button type="button" class="password-toggle" (click)="toggleConfirmPassword()">
+                    {{ showConfirmPassword ? '🙈' : '👁️' }}
+                  </button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Date Of Birth (DD/MM/YYYY) <span class="required">*</span></label>
+                <input type="date" class="form-control" [(ngModel)]="formData.dateOfBirth" name="dateOfBirth" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Gender <span class="required">*</span></label>
+                <div class="radio-group">
+                  <div class="radio-item">
+                    <input type="radio" id="male" name="gender" value="male" [(ngModel)]="formData.gender">
+                    <label for="male">Male</label>
+                  </div>
+                  <div class="radio-item">
+                    <input type="radio" id="female" name="gender" value="female" [(ngModel)]="formData.gender">
+                    <label for="female">Female</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">City Name <span class="required">*</span></label>
+                <input type="text" class="form-control" [(ngModel)]="formData.cityName" name="cityName" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">State <span class="required">*</span></label>
+                <select class="form-control" [(ngModel)]="formData.state" name="state" required>
+                  <option value="">-- Please Select State --</option>
+                  <option value="karnataka">Karnataka</option>
+                  <option value="maharashtra">Maharashtra</option>
+                  <option value="tamil-nadu">Tamil Nadu</option>
+                  <option value="kerala">Kerala</option>
+                  <option value="andhra-pradesh">Andhra Pradesh</option>
+                  <option value="telangana">Telangana</option>
+                  <option value="gujarat">Gujarat</option>
+                  <option value="rajasthan">Rajasthan</option>
+                  <option value="uttar-pradesh">Uttar Pradesh</option>
+                  <option value="west-bengal">West Bengal</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">
+                Enter the characters shown in the image (Case Sensitive) <span class="required">*</span>
+              </label>
+              <div class="captcha-container">
+                <input type="text" class="form-control captcha-input" [(ngModel)]="formData.captcha" name="captcha" required>
+                <button type="button" class="refresh-btn" (click)="refreshCaptcha()">🔄</button>
+                <div class="captcha-image">{{ captchaText }}</div>
+              </div>
+            </div>
+
+            <div class="navigation-buttons">
+              <button type="button" class="back-button btn btn-primary" (click)="goBack()">BACK</button>
+              <button type="submit" class="next-button btn btn-primary">NEXT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>

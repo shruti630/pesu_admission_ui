@@ -1,0 +1,90 @@
+<div class="fixed-header-container">
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="top-bar-content">
+
+
+    </div>
+  </div>
+
+<header class="header">
+  <div class="header-content">
+    <img src="assets/pesulogoNew.png" alt="PES University Logo" class="logo-img" />
+    <button class="back-button" (click)="goBack()">BACK</button>
+  </div>
+</header>
+<div class="dates-container">
+  <div class="title-bar">
+    <h2>Important Dates</h2>
+  </div>
+  <div class="content-area">
+    <div *ngFor="let program of importantDates" class="program-section">
+      <h4>{{ program.title }}</h4>
+      <div class="table-container">
+        <table>
+          <tbody>
+            <tr *ngFor="let entry of program.dates">
+              <td class="date-cell" [class.no-date]="!entry.date">{{ entry.date }}</td>
+              <td>{{ entry.description }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-row">
+      <div class="footer-col">
+        <img alt="PES University" class="footer-logo" src="assets/pesulogoNew.png" />
+        <ul class="footer-links">
+          <li>
+            <a href="mailto:admissionsupport&#64;pes.edu">
+              <span class="footer-text">admissionsupport&#64;pes.edu</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <ul class="social-list">
+          <li>
+            <a href="https://instagram.com/pesuniversity/" target="blank">
+              <i class="social-icon instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/pesuniversity/" target="blank">
+              <i class="social-icon twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com/pesuniversity/" target="blank">
+              <i class="social-icon facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/school/pesuniversity" target="blank">
+              <i class="social-icon linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/pesuniversity" target="blank">
+              <i class="social-icon youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-row">
+      <div class="footer-col">
+        <!-- Empty space for alignment -->
+      </div>
+      <div class="footer-col">
+        <span class="footer-copyright">&copy; 2025 PES University</span>
+      </div>
+    </div>
+  </div>
+</footer>

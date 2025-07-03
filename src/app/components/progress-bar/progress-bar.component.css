@@ -1,0 +1,61 @@
+.progress-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px; /* Space for labels */
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px; /* or some other width */
+}
+
+.step-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  z-index: 2;
+  position: relative;
+}
+
+.step.active .step-circle {
+  border-color: #007bff;
+}
+
+.step-label {
+  position: absolute;
+  top: 30px; /* Position label below the circle */
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.progress-line-bg {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #ccc;
+  z-index: 0;
+}
+
+.progress-line {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 2px;
+  background-color: #007bff;
+  z-index: 1;
+  transition: width 0.3s ease;
+}

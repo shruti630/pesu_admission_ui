@@ -1,0 +1,55 @@
+.campus-info-container {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.campus-info-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.campuses {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.campus-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.campus-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.campus-number {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.campus-video {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campus-video img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}

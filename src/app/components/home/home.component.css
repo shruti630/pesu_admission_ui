@@ -1,0 +1,51 @@
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background-image: url('/assets/pessatsliderbg-1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #333; /* Dark text color for contrast */
+  padding-left: 100px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-text .now-open {
+  color: #007bff; /* Blue color for "Now Open" */
+  border-left: 2px solid #007bff;
+  padding-left: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text .info-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.program-selection {
+    padding: 50px 100px;
+}
+
+.progress-bar-section {
+    padding: 20px 100px;
+    background-color: #f8f9fa;
+}
+

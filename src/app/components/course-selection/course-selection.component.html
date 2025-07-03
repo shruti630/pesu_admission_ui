@@ -1,0 +1,337 @@
+<app-header></app-header>
+<div class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+       <h1 class="hero-title">
+  <div class="admissions-title-group">
+    <span class="printed-text">Admissions 2026</span>
+    <span class="typed-text color--primary" #typedElement></span>
+  </div>
+</h1>
+            <!-- <h1 class="hero-title">Admissions 2025 <span class="highlight">Registration</span></h1> -->
+            <p class="hero-subtitle">Choose your program to register</p>
+            <p class="hero-note">PESU will use only JEE Main and KCET scores from 2026 for B.Tech Admissions</p>
+          </div>
+          <!-- <div class="hero-image">
+            <img src="" alt="Students" class="hero-img">
+          </div> -->
+        </div>
+      </div>
+
+
+    <div class="courses-section">
+      <div class="container">
+        <div class="course-category">
+          <h2 class="category-title">Engineering</h2>
+          <div class="course-buttons">
+            <button
+              class="course-btn"
+              (click)="selectCourse('B.Tech (Diploma Lateral Entry)')"
+            >
+              B.Tech (Diploma Lateral Entry)
+            </button>
+            <button class="course-btn">M.Tech</button>
+          </div>
+        </div>
+
+        <div class="course-category">
+          <h2 class="category-title">Medicine</h2>
+          <div class="course-buttons">
+            <button class="course-btn">MBBS</button>
+          </div>
+        </div>
+
+        <div class="course-category">
+          <h2 class="category-title">Management and Commerce</h2>
+          <div class="course-buttons">
+            <button class="course-btn">BBA (Gen / Hons)</button>
+            <button class="course-btn">BBA (Sports Management)</button>
+            <button class="course-btn">BBA (Hons) Business Analytics</button>
+            <button class="course-btn">BBA (Hospitality and Event Management)</button>
+            <button class="course-btn">B.Com (Hons) CMA</button>
+            <button class="course-btn">B.Com (Hons) ACCA</button>
+            <button class="course-btn">B.Com (Gen / Hons)</button>
+            <button class="course-btn">B.Com (Evening College)</button>
+            <button class="course-btn">MBA</button>
+          </div>
+        </div>
+
+        <div class="course-category">
+          <h2 class="category-title">Design and Architecture</h2>
+          <div class="course-buttons">
+            <button class="course-btn">Bachelor of Design (B.Des)</button>
+            <button class="course-btn">B.Arch</button>
+          </div>
+        </div>
+
+        <div class="course-category">
+          <h2 class="category-title">Psychology</h2>
+          <div class="course-buttons">
+            <button class="course-btn">B.Sc. (Hons) Psychology</button>
+            <button class="course-btn">M.Sc. Psychology</button>
+          </div>
+        </div>
+
+        <div class="course-category">
+          <h2 class="category-title">Law</h2>
+          <div class="course-buttons">
+            <button class="course-btn">BA, LLB (Hons)</button>
+            <button class="course-btn">BBA, LLB (Hons)</button>
+            <button class="course-btn">LLB (Hons)</button>
+          </div>
+        </div>
+
+        <div class="course-category">
+          <h2 class="category-title">Computer Applications</h2>
+          <div class="course-buttons">
+            <button class="course-btn">BCA</button>
+            <button class="course-btn">MCA</button>
+          </div>
+        </div>
+
+        <div class="course-category">
+          <h2 class="category-title">Arts</h2>
+          <div class="course-buttons">
+            <button class="course-btn">BA (Hons) English</button>
+            <button class="course-btn">BA (Hons) Economics</button>
+            <button class="course-btn">BA (Hons) Journalism and Mass Communication</button>
+            <button class="course-btn">BA (Hons) Performing Arts</button>
+          </div>
+        </div>
+
+        <div class="registration-info">
+          <button class="signin-btn">Already Registered? Sign in</button>
+          <p>Registration Fee: <b>Rs. 1200</b></p>
+        </div>
+
+        <app-progress-bar [currentStep]="1"></app-progress-bar>
+
+      </div>
+    </div>
+</div>
+
+<section class="bganimation">
+  <div class="container">
+    <div class="info-grid">
+      <div class="date-section">
+        <h3>July 7, 2025</h3>
+        <ul>
+          <li><a href="https://pes.edu/seat-surrender/" target="_blank">Last Date for B.Tech / B.Arch Candidates to Surrender Seat or Confirm Admission</a></li>
+        </ul>
+      </div>
+      <div class="exam-info-section">
+        <div class="exam-header">
+          <img src="assets/JEE.png" alt="JEE Main Logo" class="exam-logo">
+          <img src="assets/kcet.png" alt="KCET Logo" class="exam-logo">
+        </div>
+        <ul>
+          <li>PESU will use only JEE Main and KCET scores from 2025 for B.Tech Admissions</li>
+          <li>For Higher Fee Category / Management / NRI / PIO / OCI / Sponsored Seats, please contact the Office of Admissions at PES University or write to <a href="mailto:admissions@pes.edu">admissions&#64;pes.edu</a></li>
+          <li>PESSAT (PES Scholastic Aptitude Test) will no longer be held from the Academic Year 2025 for B.Tech</li>
+        </ul>
+      </div>
+      <div><!-- This is the empty third division --></div>
+    </div>
+  </div>
+</section>
+
+
+<div class="row" style="padding: 2px 0px;">
+<p class="lead">
+    &nbsp;&nbsp;&nbsp;&nbsp;<b></b>
+</p>
+</div>
+
+<!-- Campus Section -->
+<section class="switchable bg--secondary space--xs text-center">
+  <div class="container">
+    <div class="row justify-content-around" style="padding: 30px;">
+      <div class="col-md-10 col-lg-8">
+        <h2>3 state of art campuses in Bengaluru</h2>
+        <p class="lead">
+          Our campuses incorporate infrastructure that matches the best in the country – ensuring that students have everything they need for a rich, stimulating campus life. Watch the campus video below.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Campus Video and Process Section -->
+<section class="campus-process-section">
+  <div class="container">
+    <div class="campus-process-row">
+      <!-- Process Timeline -->
+      <div class="campus-process-timeline">
+        <ol class="process-vertical">
+          <li class="process-vertical-item">
+            <div class="process-vertical-circle">1</div>
+            <div class="process-vertical-content">
+              <h4>PES University (PESU) – Ring Road (RR) Campus</h4>
+              <div class="process-program-list">
+                <a href="https://campaigns.pes.edu/btech/" target="_blank">B.Tech</a>
+                <a href="https://campaigns.pes.edu/bca/" target="_blank">BCA</a>
+                <a href="https://campaigns.pes.edu/barch/" target="_blank">B.Arch</a>
+                <a href="https://campaigns.pes.edu/bba/" target="_blank">BBA</a>
+                <a href="https://campaigns.pes.edu/bbaanalytics" target="_blank">BBA (Hons) in Business Analytics</a>
+                <a href="https://campaigns.pes.edu/bbasports/" target="_blank">BBA (Sports Management)</a>
+                <a href="https://campaigns.pes.edu/bbahem/" target="_blank">BBA (Hospitality and Event Management)</a>
+                <a href="https://campaigns.pes.edu/bcom/" target="_blank">B.Com</a>
+                <a href="https://campaigns.pes.edu/bcom-hons/" target="_blank">B.Com (Hons) with ACCA</a>
+                <a href="https://campaigns.pes.edu/bcom-hons-cma/" target="_blank">B.Com (Hons) with CMA</a>
+                <a href="https://campaigns.pes.edu/bscpsychology" target="_blank">B.Sc. (Hons) Psychology</a>
+                <a href="https://campaigns.pes.edu/bdes/" target="_blank">Bachelor of Design (B.Des)</a>
+                <a href="https://campaigns.pes.edu/law/" target="_blank">BBA, LLB (Hons)</a>
+                <a href="https://campaigns.pes.edu/law/" target="_blank">BA, LLB (Hons)</a>
+                <a href="https://campaigns.pes.edu/llb-hons" target="_blank">LLB (Hons)</a>
+                <a href="https://campaigns.pes.edu/mca" target="_blank">MCA</a>
+                <a href="https://campaigns.pes.edu/mscpsychology/" target="_blank">M.Sc. Psychology</a>
+                <a href="https://campaigns.pes.edu/mapp/" target="_blank">M.A in Public Policy</a>
+                <a href="https://campaigns.pes.edu/mtech/" target="_blank">MTech</a>
+                <a href="https://campaigns.pes.edu/mba/" target="_blank">MBA</a>
+                <a href="https://www.cysec.pes.edu/" target="_blank">Executive M.Tech in Cybersecurity Engineering</a>
+                <a href="https://campaigns.pes.edu/bapa/" target="_blank">B.A in Performing Arts</a>
+                <a href="https://campaigns.pes.edu/bscjmc/" target="_blank">B.Sc. (Hons) Journalism and Mass Communication</a>
+                <a href="https://campaigns.pes.edu/bsceconomics/" target="_blank">B.Sc. (Hons) Economics</a>
+              </div>
+            </div>
+          </li>
+          <li class="process-vertical-item">
+            <div class="process-vertical-circle">2</div>
+            <div class="process-vertical-content">
+              <h4>PES University (PESU) – Electronic City (EC) Campus</h4>
+              <div class="process-program-list">
+                <a href="https://campaigns.pes.edu/btech/" target="_blank">B.Tech</a>
+                <a href="https://campaigns.pes.edu/mbbs/" target="_blank">MBBS</a>
+                <a href="https://campaigns.pes.edu/bba/" target="_blank">BBA</a>
+                <a href="https://campaigns.pes.edu/bcom/" target="_blank">B.Com</a>
+                <a href="https://campaigns.pes.edu/nursing/" target="_blank">B.Sc. Nursing</a>
+                <a href="https://campaigns.pes.edu/bscmedical/" target="_blank">B.Sc. (Hons) Medical Science</a>
+                <a href="https://campaigns.pes.edu/bpharm/" target="_blank">B.Pharm</a>
+                <a href="https://campaigns.pes.edu/pharmd/" target="_blank">Pharm.D</a>
+                <a href="https://campaigns.pes.edu/mpharm/" target="_blank">M.Pharm</a>
+                <a href="https://campaigns.pes.edu/bpt/" target="_blank">Bachelor of Physiotherapy</a>
+                <a href="https://campaigns.pes.edu/bsccct/" target="_blank">B.Sc. (Hons) Cardiac Care Technology</a>
+                <a href="https://campaigns.pes.edu/bscdtt/" target="_blank">B.Sc. (Hons) Dialysis Therapy Technology</a>
+                <a href="https://campaigns.pes.edu/bscaot/" target="_blank">B.Sc. (Hons) Anaesthesia and Operation Theatre Technology</a>
+                <a href="https://campaigns.pes.edu/bscemt/" target="_blank">B.Sc. (Hons) Emergency Medical Technology</a>
+                <a href="https://campaigns.pes.edu/bscmlt/" target="_blank">B.Sc. (Hons) Medical Laboratory Technology</a>
+                <a href="https://campaigns.pes.edu/bscmrit/" target="_blank">B.Sc. (Hons) Medical Radiology and Imaging Technology</a>
+              </div>
+            </div>
+          </li>
+          <li class="process-vertical-item">
+            <div class="process-vertical-circle">3</div>
+            <div class="process-vertical-content">
+              <h4>PES University (PESU) – Hanumanth Nagar (HN) Campus</h4>
+              <div class="process-program-list">
+                <!-- Reserved for future programs -->
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <!-- Video -->
+      <div class="campus-process-video">
+        <div class="video-cover border--round box-shadow-wide">
+          <img alt="Campus Video" src="assets/video-cover.jpg" class="campus-video-img">
+          <a href="https://www.youtube.com/embed/FBDnj3SOwXs" target="_blank" class="campus-video-play">
+            <span class="campus-video-play-icon"></span>
+          </a>
+        </div>
+        <span class="campus-video-caption">For more such videos, follow us on <strong>YouTube</strong>
+          <a target="_blank" href="https://www.youtube.com/user/PESUniversity">Subscribe Now ↗</a>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Feature Grid Section -->
+<section class="feature-grid-section">
+  <div class="feature-grid-row">
+    <a href="https://www.pes.edu/programs/" target="_blank" class="feature-grid-col" style="background-image: url('assets/education-5.jpg');">
+      <span class="feature-grid-title">Programs Offered</span>
+    </a>
+    <a href="https://www.pes.edu/admissions/" target="_blank" class="feature-grid-col" style="background-image: url('assets/education-6.jpg');">
+      <span class="feature-grid-title">Admissions &amp; Eligibility</span>
+    </a>
+    <a href="https://www.pes.edu/scholarships/" target="_blank" class="feature-grid-col" style="background-image: url('assets/education-8.jpg');">
+      <span class="feature-grid-title">Scholarships</span>
+    </a>
+    <a href="https://www.pes.edu/faqs/" target="_blank" class="feature-grid-col" style="background-image: url('assets/education-7.jpg');">
+      <span class="feature-grid-title">FAQs</span>
+    </a>
+  </div>
+</section>
+
+<!-- Back to Top Button -->
+<a href="#" (click)="scrollToTop()" id="myBtn" class="kingster-footer-back-to-top-button kingster-scrolled">
+  <img src="assets/up-arrow.svg" height="15" width="15" alt="Back to Top">
+</a>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-row">
+      <div class="footer-col">
+        <img alt="PES University" class="footer-logo" src="assets/pesulogoNew.png" />
+        <ul class="footer-links">
+          <li>
+            <a href="mailto:admissionsupport&#64;pes.edu">
+              <span class="footer-text">admissionsupport&#64;pes.edu</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <ul class="social-list">
+          <li>
+            <a href="https://instagram.com/pesuniversity/" target="_blank">
+              <i class="social-icon instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/pesuniversity/" target="_blank">
+              <i class="social-icon twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://facebook.com/pesuniversity/" target="_blank">
+              <i class="social-icon facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/school/pesuniversity" target="_blank">
+              <i class="social-icon linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/pesuniversity" target="_blank">
+              <i class="social-icon youtube"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-row">
+      <div class="footer-col">
+        <!-- Empty space for alignment -->
+      </div>
+      <div class="footer-col">
+        <span class="footer-copyright">&copy; 2025 PES University</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+

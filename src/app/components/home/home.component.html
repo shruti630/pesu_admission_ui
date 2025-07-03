@@ -1,0 +1,23 @@
+<div class="page-header">
+    <app-header></app-header>
+</div>
+
+<div class="home-container">
+  <div class="hero-section">
+    <div class="hero-text">
+      <h1>Admissions 2025 <span class="now-open">Now Open</span></h1>
+      <p>Choose your program to register</p>
+      <p class="info-text">PESU will use only JEE Main and KCET scores from 2025 for B.Tech Admissions</p>
+    </div>
+  </div>
+
+  <div class="program-selection">
+    <app-program-selection></app-program-selection>
+  </div>
+
+  <div class="progress-bar-section">
+      <app-progress-bar [currentStep]="1"></app-progress-bar>
+  </div>
+</div>
+
+<app-important-dates></app-important-dates>

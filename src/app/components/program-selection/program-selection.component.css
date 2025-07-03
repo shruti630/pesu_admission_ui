@@ -1,0 +1,39 @@
+.program-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.category-section {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.category-name {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.programs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.program-button {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.program-button:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
