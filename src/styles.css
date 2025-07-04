@@ -17,7 +17,7 @@
 
 body {
   font-family: var(--font-main);
-  background: var(--secondary);
+  background: var(--navy);
   color: var(--text);
   margin: 0;
   padding: 0;
@@ -311,7 +311,7 @@ footer, .footer {
 .admissions-title-group {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 3rem;
   margin-top: 2rem;
   flex-wrap: nowrap;
   white-space: nowrap;
@@ -325,10 +325,10 @@ footer, .footer {
 }
 
 .top-bar {
-  background: var(--top-bar);
+  background: var(--navy);
   color: #fff;
   font-size: 1rem;
-  padding: 0.328571em 0;
+  padding: 1.1571em 0;
   width: 100%;
   z-index: 200;
 }

@@ -1,28 +1,185 @@
-.fee-container {
+.terms-section {
+  min-height: calc(100vh - 80px);
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+/* Override global container styles for terms component */
+.terms-section .container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.content-container {
+  max-width: 100%;
+  margin: 40px auto;
+  background-color: white;
   padding: 40px;
-  max-width: 800px;
-  margin: auto;
-  font-family: 'Segoe UI', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.content-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.course-info {
+  text-align: center;
+  color: #e67e22;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.terms-content {
+  margin-top: 30px;
+}
+
+.terms-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 15px;
 }
 
 .highlight {
-  color: orange;
+  color: #e67e22;
   margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .fee-box {
-  background: #fff;
+  background: #f8f9fa;
   border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e9ecef;
   padding: 30px;
+  margin-bottom: 30px;
 }
 
-.pay-btn {
-  background-color: #0056d2;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 6px;
-  margin-top: 20px;
-  cursor: pointer;
+.fee-box h4 {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
+
+.fee-box p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.fee-box strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.fee-box ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.fee-box li {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.fee-box a {
+  color: #e67e22;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.fee-box a:hover {
+  text-decoration: underline;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  gap: 20px;
+}
+
+.pay-button {
+  background-color: #e67e22 !important;
+}
+
+.pay-button:hover {
+  background-color: #d35400 !important;
+}
+
+/* Responsive design improvements */
+@media (max-width: 1200px) {
+  .terms-section .container {
+    max-width: 95%;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .terms-section {
+    padding: 20px 0;
+  }
+
+  .terms-section .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .content-container {
+    margin: 0 20px;
+    padding: 20px;
+  }
+
+  .content-title {
+    font-size: 1.8rem;
+  }
+
+  .highlight {
+    font-size: 1.1rem;
+  }
+
+  .fee-box {
+    padding: 20px;
+  }
+
+  .navigation-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navigation-buttons button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-section .container {
+    padding: 0 5px;
+  }
+
+  .content-container {
+    margin: 0 10px;
+    padding: 15px;
+  }
+
+  .content-title {
+    font-size: 1.6rem;
+  }
+
+  .fee-box {
+    padding: 15px;
+  }
+}
+
